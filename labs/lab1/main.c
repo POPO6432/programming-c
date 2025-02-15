@@ -4,11 +4,16 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	float a,b,c,x1,x2,d;
+	double a,b,c,x1,x2,d;
+	printf("Vvedite a:\n");
+	scanf("%lf",&a);
 	
-	a=8;
-	b=2;
-	c=3;
+	printf("Vvedite b:\n");
+	scanf("%lf",&b);
+	
+	printf("Vvedite c:\n");
+	scanf("%lf",&c);
+
 	d=pow(b,2)-4*a*c;
 	
 	if(0>d){
