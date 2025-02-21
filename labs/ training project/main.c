@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <stdbool.h>
 int main() {
+	bool isHasCar= true;
+	
 	// -32 768 32 768
 	short s=500;
 	// 0-64 000
@@ -11,6 +13,9 @@ int main() {
 	
 	float a1=4.5f;
 	double a2=4.5345f;
+	
+	char sym='K';
+	
 	
 
 	x*=5;
