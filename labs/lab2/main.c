@@ -15,6 +15,14 @@ int main() {
         
         printf("\n"); 
     }
+    double a1;
+    printf("SUM\n");
+    for (i = 0; i < 3; i++) {
+        for (h = 0; h < 3; h++) {
+            a1+=mat[i][h];
+        }}
+    printf("%lf",a1,"\n");
+        
 
     return 0;
 }
